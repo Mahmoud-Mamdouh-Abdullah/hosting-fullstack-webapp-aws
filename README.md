@@ -3,7 +3,6 @@
 - [contacts app](#ContactsApp)
   - [Description](#description)
   - [Getting Started](#getting-started)
-    - [Project Setup](#project-setup)
   - [Built With](#built-with)
   - [Documentation](#documentation)
 
