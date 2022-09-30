@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/client/index.html"));
 });
 
-app.get("/contacts", async (req, res) => {
+app.get("/contacts", async (_req, res) => {
   res.send(await contacts.defaultData());
 });
 

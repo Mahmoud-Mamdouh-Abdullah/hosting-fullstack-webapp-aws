@@ -1,2 +1,2 @@
-exports.port = process.env.PORT || 4000
-exports.origin = process.env.ORIGIN || `http://demoapp-env.eba-nbxmmkxc.us-east-1.elasticbeanstalk.com/`
+exports.port = process.env.PORT || 8080
+exports.origin = process.env.ORIGIN || `http://localhost:${exports.port}`
