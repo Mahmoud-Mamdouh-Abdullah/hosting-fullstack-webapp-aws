@@ -29,11 +29,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/contacts", async (req, res) => {
-  res.send(contacts.defaultData.contacts.map((contact) => ({
-    id: contact.id,
-    name: contact.name,
-    email: contact.email
-  })));
+  res.send(contacts.defaultData());
 });
 
 app.delete("/contacts/:id", (req, res) => {
